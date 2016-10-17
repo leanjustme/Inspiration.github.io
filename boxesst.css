@@ -1,0 +1,99 @@
+
+body {
+	background: black;
+}
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.container div {
+  padding: 30px;
+  border-radius: 5px;
+}
+.image1{
+	padding-right: 10;
+	
+}
+.image1:hover {
+	padding:10px;
+	border:1px solid #fff;
+	-webkit-transform:scale(0.6);
+	-moz-transform:scale(0.6);
+	-o-transform:scale(0.6);
+	-webkit-transition-duration: 1.5s;
+	-moz-transition-duration: 1.5s;
+	-o-transition-duration: 1.5s;
+	cursor: pointer;
+}
+.image1:after { 
+  content: "She asked if I loved another woman, so I answered honestly and said, “Dinner was great, but I could go for dessert. ";
+  align-content: center;
+  position: relative;
+  color:white;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px 10px;
+  background: rgba(17,34,51,.6);
+  line-height: 1.6em;
+}
+.image1:hover:after {content: none;}
+
+.image2{
+	padding-right: 10;
+
+}
+.image2:hover {
+	padding:10px;
+	border:1px solid #fff;
+	-webkit-transform:scale(0.6);
+	-moz-transform:scale(0.6);
+	-o-transform:scale(0.6);
+	-webkit-transition-duration: 1.5s;
+	-moz-transition-duration: 1.5s;
+	-o-transition-duration: 1.5s;
+	cursor: pointer;
+}
+
+.image {
+	top: 20%;
+	right:20%;
+	height:0%;	
+	margin-top:130px;
+}
+.image2:after { 
+  content: "Life is full of beauty. Notice it. Notice the bumble bee, the small child, and the smiling faces. Smell the rain, and feel the wind. Live your life to the fullest potential, and fight for your dreams.";
+  align-content: center;
+  position: relative;
+  color:white;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px 10px;
+  background: rgba(17,34,51,.6);
+  line-height: 1.6em;
+}
+.image2:hover:after {content: none;}
+
+.image3:hover {
+	padding:10px;
+	position: relative;
+	border:1px solid #fff;
+	-webkit-transform:scale(0.6);
+	-moz-transform:scale(0.6);
+	-o-transform:scale(0.6);
+	-webkit-transition-duration: 1.5s;
+	-moz-transition-duration: 1.5s;
+	-o-transition-duration: 1.5s;
+}
+.image3:after { 
+  content: "Every flower is a soul blossoming in nature.";
+  position: relative;
+  color:white;
+  right: 10px;
+  bottom: 10px;
+  padding: 5px 10px;
+  background: rgba(17,34,51,.6);
+  line-height: 1.6em;
+}
+.image3:hover:after {content: none;}
